@@ -1,0 +1,72 @@
+*{
+    margin: auto;
+}
+body{
+    background-color:skyblue;
+    margin: center;
+}
+
+.mother{
+    background-color: navy;
+    height: 800px;
+    width: 200px;
+    padding: 50px;
+    border-style: inset;
+    height: 400px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    background-image: url(/stars.webp);
+    background: linear-gradient(to bottom right, #182848, #4b6cb7);
+}
+
+.logo{
+    padding-left: 50px;
+    margin: center;
+}
+
+.photo{
+    height: 150px;
+    width: 180px;
+    border-radius: 70%;
+    border: white 5px solid;
+    box-shadow: 5px 5px 5px maroon;
+    margin: left;
+}
+
+#slogan{
+    padding-bottom: 5px;
+    font-style: italic;
+    margin: center;
+}
+
+.company{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: center;
+    
+}
+
+.occupation{
+    color: whitesmoke;
+    font-style:italic;
+    background-color: red;
+    width: 60px;
+    padding: 10px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    
+    
+    
+
+}
+
+.tel{
+    color:white;
+}
+
+

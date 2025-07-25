@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ID Card</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .id-card {
+      width: 320px;
+      height: 500px;
+      background: linear-gradient(to bottom right, #182848, #4b6cb7);
+      color: white;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+      position: relative;
+    }
+    .header {
+      text-align: center;
+      padding: 16px;
+    }
+    .header img {
+      width: 80px;
+      vertical-align: middle;
+    }
+    .header h1 {
+      margin: 10px 0 0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 5px solid white;
+      overflow: hidden;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+    .photo img {
+      width: 100%;
+      height: 100%;
+    }
+    .info {
+      text-align: center;
+      margin-top: 16px;
+    }
+    .info h2 {
+      margin: 8px 0;
+      font-size: 22px;
+    }
+    .info p {
+      margin: 4px 0;
+      font-size: 14px;
+    }
+    .barcode {
+      position: absolute;
+      bottom: 20px;
+      left: 72%;
+      transform: translateX(-50%);
+      width: 60%;
+      height: 70px;
+    }
+    .barcode img {
+      width: 50px;
+      height: 50px;
+    }
+    .footer {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      font-size: 13px;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="id-card">
+    <div class="header">
+      <img src="/FINAL LOGO.png" alt="Logo" />
+      <h1>Educating the children</h1>
+    </div>
+    <div class="photo">
+      <img src="/me.jpg" alt="Profile Photo" />
+    </div>
+    <div class="info">
+      <h2>Namirembe Redemptor</h2>
+      <p>Website Designer</p>
+      <p>ID: 10205421055400121</p>
+      <p>Email: namiremberedemptor@gmail.com</p>
+      <p>Blood Type: A+</p>
+    </div>
+    <div class="barcode">
+      <img src="/barcode.webp" alt="Barcode" />
+    </div>
+    <div class="footer">
+      www.websitefamily.com
+    </div>
+  </div>
+</body>
+</html>
